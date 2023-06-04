@@ -1,6 +1,7 @@
 🔧 CFW Luma Automation Tool using kartdlphax ⚙️
 
 🤖 Say goodbye to manual configurations and tedious tasks, and let this automation tool do the work for you
+
 ✅ Tested on 2 3ds XL and 1 New 2ds XL
 
 🚀 Key Features:
