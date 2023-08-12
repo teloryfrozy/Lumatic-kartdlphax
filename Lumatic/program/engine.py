@@ -118,7 +118,6 @@ def hack(mode: int, gui, lang_file):
             Args:
                 - {str} src: source with files to copy
                 - {str} dst: destination of files
-                - {int} c  : counter of files
             """
             if not path.exists(dst):
                 mkdir(dst)
