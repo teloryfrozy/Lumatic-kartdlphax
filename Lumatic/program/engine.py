@@ -135,12 +135,13 @@ def hack(mode: int, gui, lang_file):
         # Hack + applications
         if mode == 1:
             nb_files += files_in_dir("ressources")
+            copy_files("ressources/SD")
             copy_files("ressources/Themes", sd_path+"Themes")
             copy_files("ressources/games", sd_path+"archives")
             copy_files("ressources/TWiLightMenu")
-
-        # Minimum files on the root of the SD card
-        copy_files("ressources/SD")
+        else:
+            # Minimum files on the root of the SD card
+            copy_files("ressources/SD")
 
         # Show that the process is finished
         gui.progress_bar["value"] = 100
